@@ -1,7 +1,6 @@
 /* CSS rules to specify families */
 body {
 	width: 1440px;
-	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	color: #2E2F42;
 	background-color: #FFF;
@@ -24,7 +23,6 @@ header {
 	align-items: center;
 	border-bottom: 1px solid var(--cornflower, #E7E9FC);
 	background: var(--white, #FFF);
-
 }
 
 /* Naw bar */
@@ -33,7 +31,6 @@ nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: flex-start;
 }
 
 nav a .logo {
@@ -43,7 +40,7 @@ nav a .logo {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 21px;
+	line-height: 1.2;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -57,7 +54,7 @@ nav .logo {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 21px;
+	line-height: 2.6;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -69,17 +66,25 @@ nav ul {
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 0;
+	justify-content: space-around;
+	align-items: center;
 }
 
 nav ul li {
 	display: inline;
 	padding: 24px 20px 24px 20px;
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
+}
+
+nav ul li:hover,
+nav ul li:focus {
+	color: #404BBF;
+	border-radius: 2px;
+	background: var(--ocean, #404BBF);
 }
 
 /* Contacts */
@@ -104,12 +109,18 @@ address ul li {
 
 address ul li a {
 	color: var(--slate, #434455);
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
+}
+
+/* Address on hover */
+
+address ul li a:hover,
+address ul li a:focus {
+	color: #404BBF;
 }
 
 /* Solutions */
@@ -130,11 +141,10 @@ address ul li a {
 	align-items: center;
 	color: var(--white, #FFF);
 	text-align: center;
-	font-family: Roboto;
 	font-size: 56px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 60px;
+	line-height: 1.1;
 	letter-spacing: 1.12px;
 }
 
@@ -143,15 +153,24 @@ button {
 	background: var(--iris, #4D5AE5);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	color: var(--white, #FFF);
-	/* Button Text */
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.64px;
 	padding: 16px 32px 16px 32px;
 	margin-bottom: 188px;
+	cursor: pointer;
+}
+
+/* Button on hover */
+
+button:hover,
+button:focus {
+	color: #FFFFFF;
+	border-radius: 4px;
+	background: var(--ocean, #404BBF);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Features */
@@ -186,11 +205,10 @@ button {
 	margin: 0;
 	padding-bottom: 8px;
 	color: var(--navyblue, #2E2F42);
-	font-family: Roboto;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 
@@ -199,10 +217,10 @@ button {
 	padding-bottom: 120px;
 	width: 264px;
 	color: var(--slate, #434455);
-	font-family: Roboto;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 
@@ -221,11 +239,10 @@ button {
 	padding: 120px 0 72px 0;
 	color: var(--navyblue, #2E2F42);
 	text-align: center;
-	font-family: Roboto;
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 1.1;
 	letter-spacing: 0.72px;
 	text-transform: capitalize;
 }
@@ -248,11 +265,10 @@ button {
 	padding: 32px 0 8px 0;
 	color: var(--navyblue, #2E2F42);
 	text-align: center;
-	font-family: Roboto;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 
 }
@@ -262,11 +278,10 @@ button {
 	padding-bottom: 32px;
 	color: var(--slate, #434455);
 	text-align: center;
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 
@@ -284,11 +299,10 @@ button {
 	padding: 120px 0 72px 0;
 	color: var(--navyblue, #2E2F42);
 	text-align: center;
-	font-family: Roboto;
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 1.1;
 	letter-spacing: 0.72px;
 	text-transform: capitalize;
 }
@@ -312,11 +326,10 @@ button {
 	margin: 0;
 	padding: 32px 0 8px 0;
 	color: var(--navyblue, #2E2F42);
-	font-family: Roboto;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 
@@ -324,11 +337,10 @@ button {
 	margin: 0;
 	padding: 0 0 32px 0;
 	color: var(--slate, #434455);
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 
@@ -351,7 +363,7 @@ footer a .logo {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 21px;
+	line-height: 1.2;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -365,7 +377,7 @@ footer .logo {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 21px;
+	line-height: 1.2;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -375,10 +387,9 @@ footer p {
 	padding: 0 0 100px 0;
 	width: 440px;
 	color: var(--cloud, #F4F4FD);
-	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
