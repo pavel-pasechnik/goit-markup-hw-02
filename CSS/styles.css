@@ -1,6 +1,6 @@
 /* CSS rules to specify families */
 body {
-	width: 100%;
+	width: 1440px;
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	color: #2E2F42;
@@ -33,6 +33,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
 nav a .logo {
@@ -48,7 +49,7 @@ nav a .logo {
 }
 
 nav .logo {
-	padding: 24px 56px 24px 56px;
+	padding: 24px 56px 24px 40px;
 	display: flex;
 	display: inline;
 	color: var(--navyblue, #2E2F42);
@@ -85,6 +86,7 @@ nav ul li {
 
 address {
 	display: flex;
+	align-items: flex-end;
 }
 
 address ul {
@@ -168,7 +170,6 @@ button {
 .features ul {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
 	align-items: center;
 	margin: 0;
 	padding: 120px 0 0 0;
@@ -177,6 +178,8 @@ button {
 .features ul li {
 	width: 264px;
 	margin: 0 12px 0 12px;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .features ul li h3 {
@@ -295,15 +298,17 @@ button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin: 0 132px 0 132px;
+	margin: 0;
 	padding: 0;
 }
 
 .portfolio ul li {
-	padding: 0 12px 48px 12px;
+	padding: 0 12px 0 12px;
 }
 
 .portfolio ul li h3 {
+	justify-content: center;
+	align-items: center;
 	margin: 0;
 	padding: 32px 0 8px 0;
 	color: var(--navyblue, #2E2F42);
@@ -334,6 +339,7 @@ footer {
 	flex-direction: column;
 	align-items: start;
 	background: var(--navyblue, #2E2F42);
+	padding-left: 156px;
 }
 
 /* Logo */
@@ -353,7 +359,7 @@ footer a .logo {
 footer .logo {
 	display: flex;
 	display: inline;
-	padding: 100px 0 18px 156px;
+	padding: 100px 0 18px 0;
 	color: var(--cloud, #F4F4FD);
 	font-family: Raleway;
 	font-size: 18px;
@@ -366,7 +372,7 @@ footer .logo {
 
 footer p {
 	margin: 0;
-	padding: 0 0 100px 156px;
+	padding: 0 0 100px 0;
 	width: 440px;
 	color: var(--cloud, #F4F4FD);
 	font-family: Roboto;
