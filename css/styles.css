@@ -1,5 +1,4 @@
 body {
-	width: 1440px;
 	font-family: 'Roboto', sans-serif;
 	color: #434455;
 	background-color: #FFFFFF;
@@ -14,26 +13,21 @@ li {
 }
 
 header {
-	width: 100%;
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
-	border-bottom: 1px solid #E7E9FC;
 	background: #FFFFFF;
 }
 
 /* Naw bar */
 
 nav {
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
 nav a .logo {
-	padding: 0;
+	margin: 0;
 	color: #2E2F42;
 	font-family: Raleway;
 	font-size: 18px;
@@ -45,9 +39,7 @@ nav a .logo {
 }
 
 nav .logo {
-	padding: 24px 56px 24px 40px;
-	display: flex;
-	display: inline;
+	margin: 24px 56px 24px 40px;
 	color: #4d5ae5;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -60,18 +52,13 @@ nav .logo {
 
 nav ul {
 	margin: 0;
-	padding: 0;
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 0;
 	justify-content: space-around;
-	align-items: center;
 }
 
 nav ul li {
-	display: inline;
-	padding: 24px 20px 24px 20px;
+	margin: 24px 20px 24px 20px;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
@@ -86,29 +73,24 @@ nav ul li {
 .nav-item:hover,
 .nav-item:focus {
 	color: #404BBF;
-	border-radius: 2px;
 	background: #404BBF;
 }
 
 /* Contacts */
 
 address {
-	display: flex;
-	align-items: flex-end;
 	font-style: normal;
 }
 
 address ul {
-	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 0;
-	padding: 0px 56px 0px 56px;
+	margin: 0px 56px 0px 56px;
 }
 
 address ul li {
-	display: inline;
-	padding: 24px 20px 24px 20px;
+	margin: 24px 20px 24px 20px;
 }
 
 address ul li a {
@@ -130,19 +112,13 @@ address ul li a:focus {
 /* Hero section */
 
 .solutions {
-	width: 100%;
-	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 	background: #2E2F42;
 }
 
 .solutions-header {
-	margin: 0;
-	padding: 188px 0 48px 0;
-	width: 496px;
-	align-items: center;
+	margin: 188px 0 48px 0;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 56px;
@@ -153,16 +129,14 @@ address ul li a:focus {
 }
 
 .button {
-	border-radius: 4px;
-	background: var(--iris, #4D5AE5);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	background: #4D5AE5;
 	color: #FFFFFF;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.64px;
-	padding: 16px 32px 16px 32px;
+	margin: 16px 32px 16px 32px;
 	margin-bottom: 188px;
 	cursor: pointer;
 }
@@ -172,42 +146,28 @@ address ul li a:focus {
 .button:hover,
 .button:focus {
 	color: #FFFFFF;
-	border-radius: 4px;
 	background: #404BBF;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Features */
 
 .features {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 }
 
-.feature-header {
-	display: none;
-}
-
 .features ul {
-	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
-	margin: 0;
-	padding: 120px 0 0 0;
+	margin: 120px 0 0 0;
 }
 
 .features ul li {
-	width: 264px;
 	margin: 0 12px 0 12px;
 	justify-content: space-around;
-	align-items: center;
 }
 
-.features ul li h3 {
-	margin: 0;
-	padding-bottom: 8px;
+.features ul li .features-header {
+	margin: 0 0 8px 0;
 	color: #2E2F42;
 	font-size: 20px;
 	font-style: normal;
@@ -217,9 +177,7 @@ address ul li a:focus {
 }
 
 .features .feature-item {
-	margin: 0;
-	padding-bottom: 120px;
-	width: 264px;
+	margin-bottom: 0 0 120px 0;
 	color: #434455;
 	font-size: 16px;
 	font-style: normal;
@@ -231,16 +189,13 @@ address ul li a:focus {
 /* Team */
 
 .team {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 	background: #F4F4FD;
 }
 
 .team .team-header {
-	margin: 0;
-	padding: 120px 0 72px 0;
+	margin: 120px 0 72px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 36px;
@@ -252,22 +207,18 @@ address ul li a:focus {
 }
 
 .team ul {
-	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
 	margin: 0;
-	padding: 0;
 }
 
 .team ul .team-item {
-	padding: 0 12px 0 12px;
+	margin: 0 12px 0 12px;
 	background-color: #FFFFFF;
 }
 
 .team ul li .team-item-header {
-	margin: 0;
-	padding: 32px 0 8px 0;
+	margin: 32px 0 8px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 20px;
@@ -279,8 +230,7 @@ address ul li a:focus {
 }
 
 .team ul li .team-item-paragraph {
-	margin: 0;
-	padding-bottom: 32px;
+	margin: 0 0 32px 0;
 	color: #434455;
 	text-align: center;
 	font-size: 16px;
@@ -293,15 +243,12 @@ address ul li a:focus {
 /* Portfolio */
 
 .portfolio {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 }
 
 .portfolio .portfolio-header {
-	margin: 0;
-	padding: 120px 0 72px 0;
+	margin: 120px 0 72px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 36px;
@@ -313,23 +260,18 @@ address ul li a:focus {
 }
 
 .portfolio ul {
-	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
 	margin: 0;
-	padding: 0;
 }
 
 .portfolio ul li {
-	padding: 0 12px 0 12px;
+	margin: 0 12px 0 12px;
 }
 
 .portfolio ul li .portfolio-item-header {
 	justify-content: center;
-	align-items: center;
-	margin: 0;
-	padding: 32px 0 8px 0;
+	margin: 32px 0 8px 0;
 	color: #2E2F42;
 	font-size: 20px;
 	font-style: normal;
@@ -339,8 +281,7 @@ address ul li a:focus {
 }
 
 .portfolio ul li .portfolio-item-paragraph {
-	margin: 0;
-	padding: 0 0 32px 0;
+	margin: 0 0 32px 0;
 	color: #434455;
 	font-size: 16px;
 	font-style: normal;
@@ -352,17 +293,14 @@ address ul li a:focus {
 /* Footer */
 
 .footer {
-	display: flex;
 	flex-direction: column;
-	align-items: start;
 	background: #2E2F42;
-	padding-left: 156px;
+	margin-left: 156px;
 }
 
 /* Logo */
 
 footer a .logo {
-	padding: 0;
 	color: #F4F4FD;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -374,9 +312,7 @@ footer a .logo {
 }
 
 footer .logo {
-	display: flex;
-	display: inline;
-	padding: 100px 0 18px 0;
+	margin: 100px 0 18px 0;
 	color: #4D5AE5;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -388,9 +324,7 @@ footer .logo {
 }
 
 footer .footer-paragraph {
-	margin: 0;
-	padding: 0 0 100px 0;
-	width: 440px;
+	margin: 0 0 100px 0;
 	color: #F4F4FD;
 	font-size: 16px;
 	font-style: normal;
