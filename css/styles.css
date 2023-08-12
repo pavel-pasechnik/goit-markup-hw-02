@@ -13,18 +13,12 @@ li {
 }
 
 header {
-	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-around;
 	background: #FFFFFF;
 }
 
 /* Naw bar */
 
-nav {
-	flex-direction: row;
-	flex-wrap: wrap;
-}
 
 nav a .logo {
 	margin: 0;
@@ -52,8 +46,6 @@ nav .logo {
 
 nav ul {
 	margin: 0;
-	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
@@ -83,8 +75,6 @@ address {
 }
 
 address ul {
-	flex-direction: row;
-	flex-wrap: wrap;
 	margin: 0;
 	margin: 0px 56px 0px 56px;
 }
@@ -112,7 +102,6 @@ address ul li a:focus {
 /* Hero section */
 
 .solutions {
-	flex-direction: column;
 	justify-content: center;
 	background: #2E2F42;
 }
@@ -152,12 +141,10 @@ address ul li a:focus {
 /* Features */
 
 .features {
-	flex-direction: column;
 	justify-content: center;
 }
 
 .features ul {
-	flex-wrap: wrap;
 	margin: 120px 0 0 0;
 }
 
@@ -189,7 +176,6 @@ address ul li a:focus {
 /* Team */
 
 .team {
-	flex-direction: column;
 	justify-content: center;
 	background: #F4F4FD;
 }
@@ -207,7 +193,6 @@ address ul li a:focus {
 }
 
 .team ul {
-	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 0;
 }
@@ -243,7 +228,6 @@ address ul li a:focus {
 /* Portfolio */
 
 .portfolio {
-	flex-direction: column;
 	justify-content: center;
 }
 
@@ -260,7 +244,6 @@ address ul li a:focus {
 }
 
 .portfolio ul {
-	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0;
 }
@@ -293,9 +276,8 @@ address ul li a:focus {
 /* Footer */
 
 .footer {
-	flex-direction: column;
 	background: #2E2F42;
-	margin-left: 156px;
+	margin: 0 0 0 156px;
 }
 
 /* Logo */
