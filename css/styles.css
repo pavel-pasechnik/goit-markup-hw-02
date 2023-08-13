@@ -21,7 +21,6 @@ header {
 
 
 nav a .logo {
-	margin: 0;
 	color: #2E2F42;
 	font-family: Raleway;
 	font-size: 18px;
@@ -33,7 +32,6 @@ nav a .logo {
 }
 
 nav .logo {
-	margin: 24px 56px 24px 40px;
 	color: #4d5ae5;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -45,12 +43,10 @@ nav .logo {
 }
 
 nav ul {
-	margin: 0;
 	justify-content: space-around;
 }
 
 nav ul li {
-	margin: 24px 20px 24px 20px;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
@@ -72,15 +68,6 @@ nav ul li {
 
 address {
 	font-style: normal;
-}
-
-address ul {
-	margin: 0;
-	margin: 0px 56px 0px 56px;
-}
-
-address ul li {
-	margin: 24px 20px 24px 20px;
 }
 
 address ul li a {
@@ -107,7 +94,6 @@ address ul li a:focus {
 }
 
 .solutions-header {
-	margin: 188px 0 48px 0;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 56px;
@@ -125,8 +111,6 @@ address ul li a:focus {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.64px;
-	margin: 16px 32px 16px 32px;
-	margin-bottom: 188px;
 	cursor: pointer;
 }
 
@@ -144,17 +128,11 @@ address ul li a:focus {
 	justify-content: center;
 }
 
-.features ul {
-	margin: 120px 0 0 0;
-}
-
 .features ul li {
-	margin: 0 12px 0 12px;
 	justify-content: space-around;
 }
 
 .features ul li .features-header {
-	margin: 0 0 8px 0;
 	color: #2E2F42;
 	font-size: 20px;
 	font-style: normal;
@@ -181,7 +159,6 @@ address ul li a:focus {
 }
 
 .team .team-header {
-	margin: 120px 0 72px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 36px;
@@ -194,16 +171,13 @@ address ul li a:focus {
 
 .team ul {
 	justify-content: space-around;
-	margin: 0;
 }
 
 .team ul .team-item {
-	margin: 0 12px 0 12px;
 	background-color: #FFFFFF;
 }
 
 .team ul li .team-item-header {
-	margin: 32px 0 8px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 20px;
@@ -215,7 +189,6 @@ address ul li a:focus {
 }
 
 .team ul li .team-item-paragraph {
-	margin: 0 0 32px 0;
 	color: #434455;
 	text-align: center;
 	font-size: 16px;
@@ -232,7 +205,6 @@ address ul li a:focus {
 }
 
 .portfolio .portfolio-header {
-	margin: 120px 0 72px 0;
 	color: #2E2F42;
 	text-align: center;
 	font-size: 36px;
@@ -245,16 +217,10 @@ address ul li a:focus {
 
 .portfolio ul {
 	justify-content: center;
-	margin: 0;
-}
-
-.portfolio ul li {
-	margin: 0 12px 0 12px;
 }
 
 .portfolio ul li .portfolio-item-header {
 	justify-content: center;
-	margin: 32px 0 8px 0;
 	color: #2E2F42;
 	font-size: 20px;
 	font-style: normal;
@@ -264,7 +230,6 @@ address ul li a:focus {
 }
 
 .portfolio ul li .portfolio-item-paragraph {
-	margin: 0 0 32px 0;
 	color: #434455;
 	font-size: 16px;
 	font-style: normal;
@@ -277,7 +242,6 @@ address ul li a:focus {
 
 .footer {
 	background: #2E2F42;
-	margin: 0 0 0 156px;
 }
 
 /* Logo */
@@ -294,7 +258,6 @@ footer a .logo {
 }
 
 footer .logo {
-	margin: 100px 0 18px 0;
 	color: #4D5AE5;
 	font-family: "Raleway", sans-serif;
 	font-size: 18px;
@@ -306,7 +269,6 @@ footer .logo {
 }
 
 footer .footer-paragraph {
-	margin: 0 0 100px 0;
 	color: #F4F4FD;
 	font-size: 16px;
 	font-style: normal;
